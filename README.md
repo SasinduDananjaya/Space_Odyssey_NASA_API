@@ -1,4 +1,4 @@
-# IT21279966 - Gunawardana S. D. L
+# Space Odyssey - NASA_API_Application
 ## Run Directly on Your Browser
 - Copy the link and past on new tab (NOTE: This is the project hosted link)
 

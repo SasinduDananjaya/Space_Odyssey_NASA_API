@@ -1,5 +1,4 @@
-# Space_Odyssey_NASA_API
-## Space Odyssey - NASA_API Application
+# Space Odyssey - NASA_API Application
  
 ## Run Directly on Your Browser
 - Copy the link and past on new tab (NOTE: This is the project hosted link)

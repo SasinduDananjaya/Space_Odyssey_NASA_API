@@ -1,11 +1,9 @@
 # IT21279966 - Gunawardana S. D. L
-
-<<<<<<< Updated upstream
 ## Run Directly on Your Browser
 - Copy the link and past on new tab (NOTE: This is the project hosted link)
 
   ```bash
-  http
+  https://space-odyssey-nasa-api.vercel.app/
   ```
 
 ## Run Locally

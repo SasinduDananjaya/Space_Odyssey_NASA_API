@@ -1,5 +1,4 @@
 # Space_Odyssey_NASA_API
-# Sasindu Gunawardana
 ## Space Odyssey - NASA_API Application
  
 ## Run Directly on Your Browser

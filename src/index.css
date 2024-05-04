@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.background-image {
+    background: url('./assets/hero-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 96px);
+}
+
+.background-image-mars {
+    background: url('./assets/mars-rover.jpg');
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+
+}
+
+.background-image-user{
+    background: url('./assets/mars-rover1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 96px);
+}
+
+/* Styles for Home Hero section */
+.background-video {
+    position: relative;
+    height: calc(100vh - 96px);
+}
+
+.background-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.content-full-height {
+    height: calc(100vh - 96px);
+}
+
+/* APOD rRender video */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

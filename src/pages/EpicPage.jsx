@@ -93,7 +93,7 @@ const NasaEpicViewer = () => {
             <img
               src={`https://epic.gsfc.nasa.gov/archive/natural/${date.split('-').join('/')}/png/${images[currentIndex].image}.png`}
               alt="NASA EPIC"
-              className="px-6 py-1 lg:px-28"
+              className="mx-6 my-3 lg:px-28 border border-white"
               height="70%"
               width="70%"
             />

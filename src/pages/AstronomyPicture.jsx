@@ -37,7 +37,7 @@ const AstronomyPicture = () => {
     if (media_type === 'image') {
       return (
         <>
-          <img src={url} alt={title} className="max-w-full h-auto mx-auto pt-5" />
+          <img src={url} alt={title} className="max-w-full h-auto mx-auto mt-5 border-2 border-white" />
           <p className="mt-2 items-center text-white px-24 text-justify py-8">{explanation}</p>
         </>
       );

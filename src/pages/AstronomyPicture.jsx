@@ -25,12 +25,13 @@ const AstronomyPicture = () => {
   }, [date]);
 
   const renderApod = () => {
-    if (loading) {
-      return <Loader />; // Show the Loader component while loading
-    }
 
     if (!apodData) {
       return <p className='py-3'>Data Not Available for This Date.</p>;
+    }
+    
+    if (loading) {
+      return <Loader />; // Show the Loader component while loading
     }
 
     const { title, url, explanation, media_type } = apodData;
